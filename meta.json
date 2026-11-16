@@ -1,11 +1,10 @@
 {
   "slug": "prestizh-yaroslavl",
-  "built_at": "2026-11-16T16:19:34.068Z",
+  "built_at": "2026-11-16T20:06:29.628Z",
   "constructor_version": "2.0.0",
   "git_sha": null,
   "includes": [
-    "landing",
-    "booking-bot"
+    "landing"
   ],
   "domain": "",
   "prod_url": ""

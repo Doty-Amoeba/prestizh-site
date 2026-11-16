@@ -31,12 +31,12 @@ const EASY = {
 const SITE = {
   "meta": {
     "title": "Салон красоты «Престиж» в Ярославле — Трефолева, 21А",
-    "description": "Стрижки, окрашивание, маникюр, педикюр, косметология, эпиляция и массаж в центре Ярославля. 4,4 ★ — средняя оценка гостей. Пн–Сб с 09:00 до 21:00, запись онлайн в Telegram.",
-    "emoji": "П"
+    "description": "Стрижки, окрашивание, маникюр, педикюр, косметология, эпиляция и массаж в центре Ярославля. Пн–Сб с 09:00 до 21:00, запись онлайн в Telegram.",
+    "emoji": "flower"
   },
   "brand": {
     "name": "Престиж",
-    "logoEmoji": "П",
+    "logoEmoji": "flower",
     "slogan": "салон красоты · Ярославль"
   },
   "nav": [
@@ -74,7 +74,7 @@ const SITE = {
       "href": "#services"
     },
     "cardImage": "",
-    "cardEmoji": "<svg viewBox='0 0 24 24' width='72' height='72' fill='none' stroke='#ffffff' stroke-width='1.1' stroke-linejoin='round' aria-hidden='true'><path d='M12 3.4l2.1 6.2 6.2 2.1-6.2 2.1L12 20l-2.1-6.2L3.7 11.7l6.2-2.1z'/><path d='M18.9 4.2l.5 1.4 1.4.5-1.4.5-.5 1.4-.5-1.4-1.4-.5 1.4-.5z' opacity='.75'/></svg>",
+    "cardEmoji": "sparkles",
     "cardTitle": "Мы работаем сегодня",
     "cardNote": "Позвоните — подберём мастера и удобное время",
     "primaryButtonHref": "#booking"
@@ -82,7 +82,7 @@ const SITE = {
   "stats": [
     {
       "value": 4.4,
-      "suffix": " ★",
+      "suffix": "",
       "label": "средняя оценка гостей",
       "decimals": 1
     },
@@ -107,22 +107,22 @@ const SITE = {
     "subtitle": "Небольшой салон в Кировском районе, где помнят ваши пожелания — и вашу длину волос.",
     "features": [
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='26' height='26' fill='none' stroke='currentColor' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M4.2 5.4h15.6v10.4H9.4L4.2 19.6z'/><path d='M8 9.4h7.8M8 12.4h5.2'/></svg>",
+        "icon": "user",
         "title": "Мастера, которые слышат",
         "text": "Перед работой обсуждаем результат: покажем, что получится, и предложим уход дома."
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='26' height='26' fill='none' stroke='currentColor' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><circle cx='8.3' cy='8.3' r='2.5'/><circle cx='15.7' cy='8.3' r='2.5'/><circle cx='8.3' cy='15.7' r='2.5'/><circle cx='15.7' cy='15.7' r='2.5'/></svg>",
+        "icon": "sparkles",
         "title": "Всё в одном месте",
         "text": "Волосы, ногти, ресницы, брови, кожа и тело — не нужно ездить по городу за каждым делом."
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='26' height='26' fill='none' stroke='currentColor' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M12 3.3 19 6v6.1c0 4-3 6.6-7 8-4-1.4-7-4-7-8V6z'/><path d='M9.2 12.2l1.9 1.9 3.7-3.9'/></svg>",
+        "icon": "shield-check",
         "title": "Чистота и стерильность",
         "text": "Инструмент обрабатывается после каждого гостя, одноразовые материалы — по умолчанию."
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='26' height='26' fill='none' stroke='currentColor' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M4.6 8.4h10.8v4.7a4.4 4.4 0 0 1-4.4 4.4H9a4.4 4.4 0 0 1-4.4-4.4z'/><path d='M15.4 9.7h1.7a2.4 2.4 0 0 1 0 4.8h-1.7'/><path d='M4.2 20.6h12.6'/></svg>",
+        "icon": "coffee",
         "title": "Уют и вкусный кофе",
         "text": "Гости пишут именно об этом: спокойная атмосфера, чисто, уютно и кофе в подарок ожиданию."
       }
@@ -133,7 +133,7 @@ const SITE = {
     "subtitle": "Прайс на основные услуги. Итоговую стоимость мастер подтверждает до начала работы.",
     "items": [
       {
-        "emoji": "01",
+        "icon": "scissors",
         "name": "Женская стрижка",
         "price": "1 000 – 1 500 ₽",
         "time": "40–60 мин",
@@ -141,63 +141,63 @@ const SITE = {
         "badge": "Хит"
       },
       {
-        "emoji": "02",
+        "icon": "scissors",
         "name": "Мужская стрижка",
         "price": "1 000 – 3 000 ₽",
         "time": "40 мин",
         "text": "Классика, фейд, моделирование бороды — по договорённости с мастером."
       },
       {
-        "emoji": "03",
+        "icon": "palette",
         "name": "Окрашивание волос",
         "price": "по длине волос",
         "time": "2–3 ч",
         "text": "Тонирование, блонд, сложные техники. Гости хвалят спасение волос после неудачных окрашиваний."
       },
       {
-        "emoji": "04",
+        "icon": "brush",
         "name": "Маникюр и покрытие гель-лаком",
         "price": "по прайсу салона",
         "time": "1–1,5 ч",
         "text": "Аппаратный маникюр, укрепление, дизайн и арт-роспись ногтей."
       },
       {
-        "emoji": "05",
+        "icon": "footprints",
         "name": "Педикюр",
         "price": "по прайсу салона",
         "time": "1–1,5 ч",
         "text": "Аккуратная обработка стопы плюс покрытие — можно в паре с маникюром."
       },
       {
-        "emoji": "06",
+        "icon": "eye",
         "name": "Наращивание ресниц",
         "price": "по прайсу салона",
         "time": "1,5–2 ч",
         "text": "Классика, 2D–3D объёмы, ламинирование. Подбираем изгиб под разрез глаз."
       },
       {
-        "emoji": "07",
+        "icon": "flower",
         "name": "Брови: коррекция и окрашивание",
         "price": "по прайсу салона",
         "time": "30–45 мин",
         "text": "Форма по типу лица, окрашивание и укладка. Плюс татуаж и перманентный макияж."
       },
       {
-        "emoji": "08",
+        "icon": "droplet",
         "name": "Косметология и уход за лицом",
         "price": "по прайсу салона",
         "time": "1 ч",
         "text": "Чистка, пилинг и уходовые процедуры — с оценкой состояния кожи."
       },
       {
-        "emoji": "09",
+        "icon": "waves",
         "name": "Эпиляция: воск и шугаринг",
         "price": "по зоне",
         "time": "15–60 мин",
         "text": "Восковая, энзимная депиляция, шугаринг. Также фото- и лазерная эпиляция."
       },
       {
-        "emoji": "10",
+        "icon": "heart",
         "name": "Массаж",
         "price": "по прайсу салона",
         "time": "45–60 мин",
@@ -211,21 +211,21 @@ const SITE = {
     "subtitle": "Те, кого гости называют по имени в отзывах.",
     "items": [
       {
-        "emoji": "А",
+        "emoji": "user",
         "name": "Анна Наумова",
         "role": "Парикмахер-стилист",
         "text": "«Сразу поняла, какую стрижку я хочу» — из отзыва гостьи.",
         "image": ""
       },
       {
-        "emoji": "Н",
+        "emoji": "palette",
         "name": "Наталья Ш.",
         "role": "Колорист",
         "text": "Спасла волосы после неудачного окрашивания в блонд. Теперь только к ней.",
         "image": ""
       },
       {
-        "emoji": "Л",
+        "emoji": "heart",
         "name": "Любовь Медведева",
         "role": "Мастер массажа",
         "text": "Профессионал с огромным стажем — гости ходят годами.",
@@ -238,32 +238,32 @@ const SITE = {
     "subtitle": "Свежие фото работ, акции и свободные окна — в нашем Telegram. Подпишись, чтобы не пропустить.",
     "items": [
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><circle cx='6.2' cy='6.2' r='2.4'/><circle cx='6.2' cy='17.8' r='2.4'/><path d='M8.2 7.8 19.4 17.6M8.2 16.2 19.4 6.4'/></svg>",
+        "emoji": "scissors",
         "image": "",
         "caption": "Женская стрижка"
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M12 3.8c3.3 4 5.4 6.9 5.4 9.4A5.4 5.4 0 0 1 12 18.6a5.4 5.4 0 0 1-5.4-5.4c0-2.5 2.1-5.4 5.4-9.4z'/><path d='M9.6 13.4a2.5 2.5 0 0 0 2.4 2.4'/></svg>",
+        "emoji": "droplet",
         "image": "",
         "caption": "Окрашивание в блонд"
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M9.4 9.6h5.2v9.8H9.4z'/><path d='M10.8 9.6V5.4h2.4v4.2'/><path d='M9.4 13h5.2'/></svg>",
+        "emoji": "brush",
         "image": "",
         "caption": "Маникюр с дизайном"
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M2.9 12S6.5 6.9 12 6.9 21.1 12 21.1 12 17.5 17.1 12 17.1 2.9 12 2.9 12z'/><circle cx='12' cy='12' r='2.5'/></svg>",
+        "emoji": "eye",
         "image": "",
         "caption": "Наращивание ресниц"
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M3.6 13.6c2.7-3.5 5.7-5.2 9.3-5.2 3 0 5.4 1 6.9 2.2'/><path d='M7.6 15.4c.9-.9 2-1 3.1-.4 1 .5 1.8 1.3 2.6 2.2'/><path d='M15.9 17.2c.9-.9 1.9-1.4 3-1.5'/></svg>",
+        "emoji": "flower",
         "image": "",
         "caption": "Коррекция бровей"
       },
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='54' height='54' fill='none' stroke='#ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M4.4 16.2c2.2-2.6 4.9-3.9 7.6-3.9s5.4 1.3 7.6 3.9'/><path d='M4.4 10.6c2.2-2.6 4.9-3.9 7.6-3.9s5.4 1.3 7.6 3.9'/></svg>",
+        "emoji": "waves",
         "image": "",
         "caption": "Массаж и уход"
       }
@@ -318,12 +318,12 @@ const SITE = {
     },
     "socials": [
       {
-        "emoji": "<svg viewBox='0 0 24 24' width='17' height='17' fill='currentColor' aria-hidden='true'><path d='M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9 8.8-8c.4-.3-.1-.5-.6-.2L6.4 12.1 1.7 10.6c-1-.3-1-1 .2-1.5l18.5-7.1c.9-.3 1.6.2 1.5 1.3z'/></svg>",
+        "icon": "send",
         "text": "Записаться в Telegram",
         "link": "https://t.me/"
       },
       {
-        "emoji": "",
+        "icon": "phone",
         "text": "+7 (4852) 64-00-15",
         "link": "tel:+74852640015"
       }
