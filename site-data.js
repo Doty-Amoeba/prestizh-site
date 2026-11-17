@@ -32,7 +32,13 @@ const SITE = {
   "meta": {
     "title": "Салон красоты «Престиж» в Ярославле — Трефолева, 21А",
     "description": "Стрижки, окрашивание, маникюр, педикюр, косметология, эпиляция и массаж в центре Ярославля. Пн–Сб с 09:00 до 21:00, запись онлайн в Telegram.",
-    "emoji": "flower"
+    "emoji": "flower",
+    "ogTitle": "Салон красоты Престиж — Ярославль, ул. Трефолева 21А",
+    "ogDescription": "Стрижки, окрашивание, маникюр, педикюр и массаж в центре Ярославля. Пн–Сб 09:00–21:00. Запись онлайн в Telegram — без звонков.",
+    "ogImage": "https://doty-amoeba.github.io/prestizh-site/og.png",
+    "url": "https://doty-amoeba.github.io/prestizh-site/",
+    "siteName": "Салон красоты Престиж",
+    "themeColor": "#c65a86"
   },
   "brand": {
     "name": "Престиж",
